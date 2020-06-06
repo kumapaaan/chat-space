@@ -1,0 +1,15 @@
+.side-bar
+  .side-header
+    .side-box
+      %P.side-box__userName kuma
+      %ul.side-box__Iconlist
+        %li.side-box__Iconlist__icon
+          = link_to "#" do 
+            = icon('fas','edit')
+        %li.side-box__Iconlist__icon
+          = link_to "#" do
+            = icon('fas', 'cog')
+  .groups
+    =link_to "#" do
+      %p.groups__group__name test
+      %p.groups__group__messages まだメッセージがありません

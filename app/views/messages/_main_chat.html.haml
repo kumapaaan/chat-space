@@ -1,0 +1,25 @@
+.main
+  .main-header
+    .main-header__left-box
+      .main-header__left-box__current__group test
+      %ul.main-header__left-box__member__list 
+        Member:
+        %li.main-header__left-box__member__list__member kuma
+    =link_to"#"do
+      %p.main-header__edit__btn Edit
+
+  .chat-main
+    .message-box
+      .messageInfo
+        .messageInfo__user-name kuma  
+        .messageInfo__date ○年○月○日
+      .messages まだコメントがありません 
+  
+  .form
+    %form.new_message
+      .input-box
+        %input{type:"text",class:"input-box__text",placeholder:"type a message"}
+        %label{class:"input-box__image"}
+          = icon('fas','image')
+          %input{type: "file",class:"input-box__image__file"}
+      %input{type: "submit",class: "submit-btn"}
