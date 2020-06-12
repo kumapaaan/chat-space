@@ -40,8 +40,9 @@
     background-color: #fafafa;
     padding: 35px 40px 0;
     overflow: scroll;
+    .chat-main{
+      margin-bottom: 46px;
       .message-box{
-        margin-bottom: 46px;
         .messageInfo{
           display: flex;
           &__user-name{
@@ -59,6 +60,7 @@
         }
       }
     }
+  }
   .form{
     height: 90px;
     background-color: #d2d2d2;
