@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
     .side-box{
-      githubheight: 20px;
       width: 260px;
       display: flex;
       justify-content: space-between;
@@ -20,7 +19,6 @@
       }
       &__Iconlist{
         display: flex;
-        justify-content: flex-end;
         &__icon{
           margin-left: 5px;
           text-decoration: none;
