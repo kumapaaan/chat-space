@@ -33,18 +33,16 @@
 .groups{
   background-color: #2f3e51;
   height: calc(100vh - 100px);
-  padding: 20px 0 40px 20px;
+  padding: 0 20px;
   overflow: scroll;
   .group{
     padding: 20px 0 40px;
     .group__name{
       color: #fff;
-      font-weight: bold;
       font-size: 15px;
       border-top: 5px;
       }
     .group__messages{
-      font-weight: bold;
       font-size: 11px;
       color: #fff;
       }
