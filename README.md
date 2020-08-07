@@ -1,6 +1,10 @@
 # アプリ概要
-### チャット機能の実装を致しました。
+### チャットアプリケーションの実装を致しました。
 ![](https://i.gyazo.com/a0ec5930e2df6112645ffa82c830a52a.png)
+
+## 開発環境
+・Ruby(2.4.5)  
+・Ruby on Rails(6.0.0)
 
 ## usersテーブル
 |Column|Type|Options|
